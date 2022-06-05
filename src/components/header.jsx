@@ -73,6 +73,9 @@ function Header() //import the function name
             <button type="button" class="btn btn-dark btn-lg download-button">  Start Learning</button>
             <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>  Watch Video</button>
 
+            <img className="coding" src = "https://imgs.developpaper.com/imgs/2993519687-c203a7b973b06316_articlex.png"></img>
+            <img className="codingboy" src="https://cdn1.iconfinder.com/data/icons/people-career-for-business/64/Artboard_2-512.png"></img>
+
         </div>
       </div>
     );
