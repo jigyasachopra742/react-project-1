@@ -1,0 +1,37 @@
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+}
+
+body{
+    background-color: #332940;
+    opacity: 90%;
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 24.4%;
+    margin-left: 25%;
+    height: 20%;
+    font-size: 4.5rem;
+    text-align: left;
+}
+
+h5{
+    color: wheat;
+    margin-top: 20%;
+    margin-left: 25%;
+    font-size: 1.445rem;
+    text-align: left;
+    font-weight: light;
+}
+
+
+.download-button{
+    margin: 5% 0.5% 1% 3%;
+    text-align: left;
+    
+}
