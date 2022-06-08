@@ -1,14 +1,17 @@
 import React from 'react';
 import Navbar from './navbar';
 import Header from './header';
-import Features from './features';
+import About_us from './about_us';
+import Courses from './courses';
+
 function Home()
 {
     return(
         <div>
             <Navbar />
             <Header />
-            <Features />
+            <About_us />
+            <Courses />
         </div>
     );
 }

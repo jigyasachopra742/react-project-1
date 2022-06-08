@@ -22,19 +22,23 @@ function Navbar()
                 <ul class="navbar-nav mx-auto">
                    
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Features</a>
+                    <a class="nav-link" aria-current="page" href="#">About</a>
                     </li>
                     
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Solutions💯</a>
+                    <a class="nav-link" href="#">Courses💯</a>
                     </li>
                     
                     <li class="nav-item">
-                    <a class="nav-link">Resources</a>
+                    <a class="nav-link">Mentors</a>
                     </li>
 
                     <li class="nav-item">
-                    <a class="nav-link">Pricing</a>
+                    <a class="nav-link">FAQ'S</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link">Contact</a>
                     </li>
                 </ul>
 

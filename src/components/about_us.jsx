@@ -1,13 +1,13 @@
 import React from 'react';
-import './features.css';
+import './about_us.css';
 import {motion} from 'framer-motion'
-function Features()
+function About_us()
 {
    return(   
      
       <div className='box'>
          <img className='about_img' src='https://www.codingminutes.com/static/media/header-image.9aa88f5aab8a31248bb3.png'></img>
-            <div className='col-lg-6 col-md-12 col-xs-12'>
+            <div className='col-lg-12'>
                <div className='about-content'>
                   <div>
                      
@@ -15,10 +15,11 @@ function Features()
                         <motion.h2 whileHover={{ scale: 2}}> About The Platform </motion.h2>
                         <motion.p whileHover={{ scale: 1.5}}
                            >
-                           hhjhgjrkjgrejtglkertlkerkt5lkyt5yl;k54yo54
-                           fherjkjnrejktretjemlktjelkte5ktlk5yl45lkykyhlykh5l6kyk6lkkyl5kk
-                           fnejrfernenrktmjerkjtkmek
-                           bbrberbenrnwejrnwnrwm4nrm4km
+                          There's a myriad of information out there. 
+                           A mentor helps navigate the complexities of life and find the best path based on your long term goals.
+                           We helped our mentees get placed in organisations like Google, Microsoft, Amazon, 
+                           Bloomberg, ByteDance, Adobe, Goldman Sachs, Intuit, Flipkart, Visa, Walmart, Arcesium, 
+                           DE Shaw, Postman, Accenture, Myntra, Paytm etc.
                         </motion.p>
                      </div>
                   </div>
@@ -35,4 +36,4 @@ function Features()
    );
 }
 
-export default Features;
+export default About_us;
