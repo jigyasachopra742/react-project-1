@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css';
+import {motion} from "framer-motion"
 function Header() //import the function name 
 {
     // Some random colors
@@ -56,7 +57,8 @@ function Header() //import the function name
         }
 
     return(
-      <div className="row">
+    <div className="container-fluid">
+      <div className="row" style={{overflow:"hidden"}}>
         <div className="col-lg-6">
             
             <h1>Get help with
@@ -70,14 +72,18 @@ function Header() //import the function name
                 best experts to apply skills in action.
             </h5>
 
-            <button type="button" class="btn btn-dark btn-lg download-button">  Start Learning</button>
-            <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>  Watch Video</button>
+            <motion.button whileHover={{ scale: 1.2}} type="button" class="btn btn-dark btn-lg download-button">  Start Learning</motion.button>
+            <motion.button whileHover={{ scale: 1.2}} type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>  Watch Video</motion.button>
+      
 
-            <img className="coding" src = "https://imgs.developpaper.com/imgs/2993519687-c203a7b973b06316_articlex.png"></img>
-            <img className="codingboy" src="https://cdn1.iconfinder.com/data/icons/people-career-for-business/64/Artboard_2-512.png"></img>
-
+            <div className="col-lg-12">
+                <img className="coding" src = "https://imgs.developpaper.com/imgs/2993519687-c203a7b973b06316_articlex.png"></img>
+                <img className="codingboy" src="https://cdn1.iconfinder.com/data/icons/people-career-for-business/64/Artboard_2-512.png"></img>
+            </div>
         </div>
+       
       </div>
+    </div>
     );
 }
 

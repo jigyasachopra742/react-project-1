@@ -1,9 +1,10 @@
 import React from "react";
 import './navbar.css';
+import { motion } from "framer-motion"
 function Navbar()
 {
     return(
-        <div>
+        <div class = "container-fluid">
             <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
             <div id = "nav-container" class="container">
                 <a class="navbar-brand" href="#">
@@ -37,8 +38,8 @@ function Navbar()
                     </li>
                 </ul>
 
-                <button type="button" class="btn btn-dark">Log In</button>
-                <button type="button" class="btn btn-light">Try for free</button>
+                <motion.button whileHover={{ scale:1.2 }} type="button" class="btn btn-dark">Log In</motion.button>
+                <motion.button whileHover={{ scale:1.2 }} type="button" class="btn btn-light">Try for free</motion.button>
                 
 
                 </div>

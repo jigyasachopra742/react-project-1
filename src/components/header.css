@@ -8,6 +8,7 @@ body{
     background-color: #332940;
     opacity: 90%;
     text-align: center;
+    overflow-x: hidden; /*for removing horizontal scroll*/
 }
 
 h1{
@@ -46,7 +47,6 @@ h5{
 .codingboy{
     margin-left: 110%;
     margin-top: -70%;
-    height: 35%;
-
-   
+    height: 25rem;
 }
+

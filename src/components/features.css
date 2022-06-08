@@ -1,5 +1,24 @@
-.fea{
-    height: 10vh;
-    width: 20vw;
-    background-color: white;
+.box{
+  height: 95vh;
+  width: 100vw;
+  background-color: rgb(5, 6, 7);
+  padding: 10% ;
 }
+
+.about_img{
+ 
+  margin-bottom: 20%;
+  height: 60vh;
+  margin-right: 52%;
+
+}
+
+.about-content{
+  height: 100%;
+  display: table;
+  color: antiquewhite;
+  justify-content: right;
+  margin-top: -40rem;
+  margin-left: 50rem;
+}
+
