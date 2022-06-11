@@ -1,50 +1,33 @@
-#abu{
+#bene{
     padding: 100px;
     text-align: center;
-    background-color:  rgb(166, 104, 224);
+    background-color:  white
 }
 
-.abu-column{
+.bene-column{
     padding: 3% 2%;
 }
 
-h6{
-    font-size: medium;
-}
-
-.card {
+.benfits-card {
     position: relative;
     padding: 25px 15px;
     margin: 50px 0;
-    height: 500px;
+    height: 80vh;
     box-shadow: 0 2px 5px #ccc;
     text-align: left;
 }
 
-.card-header {
+
+.bene-card{
     height: 120px;
     width: 100%;
-    background-color: #00cec9;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
 }
 
-.card img{
-    width: 120px;
-    height: 120px;
-}
 
 .card-body{
     margin-top: 120px;
-}
-
-.data-btn{
-    margin-left: -1rem;
-}
-
-.hash-btn{
-    margin-left: 0rem;
-    margin-top: 1rem;
 }

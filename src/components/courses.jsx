@@ -25,13 +25,14 @@ function createEntry(Cou)
    
 
 }
+
 function Courses()
 {
     return(
         <section id = "abu">
 
             <h2 style={{color: "wheat"}}>A Plan for every aspiring student's Needs</h2>
-            <h6 style={{color: "lightblue"}}  >Simple and affordable price plans for the courses</h6>
+            <h6 style={{color: "lightblue"}}>Simple and affordable price plans for the courses</h6>
 
             <div className="row">
                 {Cou.map(createEntry)}

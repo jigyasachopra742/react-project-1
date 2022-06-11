@@ -1,16 +1,13 @@
-#abu{
+#fa{
     padding: 100px;
     text-align: center;
-    background-color:  rgb(166, 104, 224);
+    background-color: rgb(134, 66, 134)
 }
 
-.abu-column{
+.fa-column{
     padding: 3% 2%;
 }
 
-h6{
-    font-size: medium;
-}
 
 .card {
     position: relative;
@@ -29,22 +26,4 @@ h6{
     top: 0;
     left: 0;
     display: flex;
-}
-
-.card img{
-    width: 120px;
-    height: 120px;
-}
-
-.card-body{
-    margin-top: 120px;
-}
-
-.data-btn{
-    margin-left: -1rem;
-}
-
-.hash-btn{
-    margin-left: 0rem;
-    margin-top: 1rem;
 }
