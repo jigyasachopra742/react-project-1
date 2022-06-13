@@ -8,25 +8,6 @@
     padding: 3% 2%;
 }
 
-.benfits-card {
-    position: relative;
-    padding: 25px 15px;
-    margin: 50px 0;
-    height: 80vh;
-    box-shadow: 0 2px 5px #ccc;
-    text-align: left;
-}
-
-
-.bene-card{
-    height: 120px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-}
-
 
 .card-body{
     margin-top: 120px;

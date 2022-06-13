@@ -3,15 +3,15 @@ function Entrybene(props)
 {
     return(
         <>
-            <div className="bene-column col-lg-4 col-md-6">
+            <div className="bene-column col-lg-3 col-md-12">
 
-                <div className="card benefits-card">
+                <div className="card" style={{borderRadius:"0.5rem", width: "15em", height: "32vh"}}>
 
-                    <div className="bene-card">
+                    <div className="card-header" style={{backgroundColor:"whitesmoke"}}>
                         <h3>{props.name}</h3>
                     </div>
 
-                    <div className="card-body">
+                    <div className="card-body" >
                         <p>{props.desc}</p>
                     </div>
                 </div>

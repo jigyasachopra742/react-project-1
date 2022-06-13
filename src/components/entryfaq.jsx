@@ -3,7 +3,7 @@ function Entryfaq(props){
     
     return(
         <div>
-            <div className="fa-column col-lg-4 col-xs-6">
+            <div className="fa-column col-lg-4 col-md-6">
 
                 <div className="card">
 

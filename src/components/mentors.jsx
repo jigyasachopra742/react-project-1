@@ -9,6 +9,7 @@ function createMenEntry(Men)
         <Entrymen 
             key={Men.id}
             name={Men.name}
+            subHeading={Men.subHeading}
             descmen={Men.descmen}
         />
     );

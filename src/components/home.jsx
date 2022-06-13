@@ -6,6 +6,7 @@ import Courses from './courses';
 import Benefits from './benefits';
 import Mentors from './mentors';
 import Faq from './faq';
+import Footer from './footer';
 
 
 function Home()
@@ -19,6 +20,7 @@ function Home()
             <Benefits />
             <Mentors />
             <Faq />
+            <Footer />
         </div>
     );
 }

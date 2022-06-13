@@ -19,6 +19,10 @@ function createEntry(Cou)
             buttonname2 = {Cou.buttonname2}
             buttonname3 = {Cou.buttonname3}
             buttonname4 = {Cou.buttonname4}
+            buttonname5 = {Cou.buttonname5}
+            buttonname6 = {Cou.buttonname6}
+            buttonname7 = {Cou.buttonname7}
+
     
         />
     );

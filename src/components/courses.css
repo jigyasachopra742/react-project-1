@@ -1,7 +1,7 @@
 #abu{
     padding: 100px;
     text-align: center;
-    background-color:  rgb(166, 104, 224);
+    background-color:  rgb(93, 52, 131);
 }
 
 .abu-column{
@@ -24,7 +24,6 @@ h6{
 .card-header {
     height: 120px;
     width: 100%;
-    background-color: #00cec9;
     position: absolute;
     top: 0;
     left: 0;

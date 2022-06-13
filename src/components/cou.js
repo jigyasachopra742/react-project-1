@@ -12,7 +12,11 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Linked List",
+        buttonname6: "Trees",
+        buttonname7: "Stacks/Queues"
+        
     },
 
     {
@@ -24,10 +28,13 @@ const Cou =
         stars: "4.7⭐⭐⭐⭐",
         description: "Lifetime Subscription",
         learn: "what will you learn ?",
-        buttonname1: "C++",
-        buttonname2: "Arrays",
-        buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname1: "STL",
+        buttonname2: "Data Structures",
+        buttonname3: "Algorithms",
+        buttonname4: "Problem Solving",
+        buttonname5: "Graph",
+        buttonname6: "DP",
+        buttonname7: "Hash Tables"
     },
 
 
@@ -43,7 +50,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -58,7 +68,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -73,7 +86,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -88,7 +104,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -103,7 +122,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -118,7 +140,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -133,7 +158,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Linked List",
+        buttonname6: "Trees",
+        buttonname7: "Hash Tables"
     },
 
     {
@@ -148,7 +176,9 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables"
     },
 
     {
@@ -163,7 +193,10 @@ const Cou =
         buttonname1: "C++",
         buttonname2: "Arrays",
         buttonname3: "Heaps",
-        buttonname4: "Hash Tables"
+        buttonname4: "Hash Tables",
+        buttonname5: "Hash Tables",
+        buttonname6: "Hash Tables",
+        buttonname7: "Hash Tables"
     },
 
 
