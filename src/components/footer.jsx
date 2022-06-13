@@ -5,25 +5,47 @@ import './footer.css'
 function Footer()
 {
     return(
-        <div className="container-fluid" id="contact">
-            <div className="col-md-4">
-            <span>
-                <img  src="https://cdn4.iconfinder.com/data/icons/programming-52/64/Coding-binary-data-computer-programming-256.png" style={{height: "140px", marginTop: "60px", marginRight: "80em"}}></img>
-                    <h2 style={{marginLeft:"1.6em", marginTop: "-8rem"}}>Coding school</h2> 
-            </span>
 
-            <p style={{marginLeft: "10rem"}}>
-            Coding School was started with a mission to provide affordable and high quality education for everyone. With Udemy as our technology partner, we wish to bring all our courses with top-notch content to our students at pocket friendly prices with lifetime access.
-            <br></br>
-            <p style={{marginTop:"20px"}}>©2022 Coding Minutes. All rights reserved</p>
-            </p>
-            </div>
+<div className = "mera">
+  <footer className="footer">
+    <div className="waves">
+      <div className="wave" id="wave1"></div>
+      <div className="wave" id="wave2"></div>
+      <div className="wave" id="wave3"></div>
+      <div className="wave" id="wave4"></div>
+    </div>
+    <ul className="social-icon">
+      <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul className="menu">
+      <li className="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li className="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li className="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li className="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li className="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>&copy;2022 Coding School | All Rights Reserved</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</div>
 
 
-            <div className="col-md-3">
-                <h2>Get In Touch</h2>
-            </div>
-        </div>
+
+
+
     );
 }
 

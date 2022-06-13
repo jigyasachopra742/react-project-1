@@ -8,7 +8,7 @@ function Entry(props)
 
                 <motion.div whileHover={{ scale: 1.2}} className="card" style={{height: "80vh"}}>
                     
-                    <div className="card-header" style={{backgroundColor:"#DD2FD0 "}}>
+                    <div className="card-header" style={{backgroundColor:"rgb(188, 151, 151)"}}>
                         <h3>{props.name}</h3>
                         <img>{props.imgURL}</img>
                     </div>

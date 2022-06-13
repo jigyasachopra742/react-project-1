@@ -17,14 +17,17 @@ function createFaqEntry(Faques)
 function Faq(){
     
     return(
-        <section id="fa">
-            
-            <h2 style={{color: "wheat"}}>Frequently Asked Questions🤔</h2>
+        <div className="container my-5">
+            <div className="text-center mb-5">
+                <span className="text-secondary text-uppercase">Questions</span>
+                <h2 className="text-capitalize font-weight-bold" style={{color: "wheat"}}>Frequently Asked <span>Questions</span></h2>
+            </div>
+    
             <div className="row">
                 {Faques.map(createFaqEntry)}
             </div>
-        
-        </section>
+            
+        </div>
     );
 
 }
