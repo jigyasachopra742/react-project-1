@@ -26,16 +26,17 @@
 }
 
 .nav-item{
-    padding: 1% 10% ;
+    padding: 1% 10% 0% 10% ;
     margin-left: -4em;
     font-weight: 3%;
-    margin-right: -3em;
+    margin-right: -2.5em;
 }
 
 .nav-link{
     font-size: 1.2rem;
     color: #fff;
-    margin-right: 6rem;
+    margin-right: 5rem;
+    padding-left: 10rem;
 }
 
 .navbar-expand-lg{
@@ -59,8 +60,8 @@
 }
 
 .btn{
-    margin-left: 10.5%;
-    margin-right: -7.5%;   
+    margin-left: 9.5%;
+    margin-right: -4.5%;   
     border-radius: 0;
     border-width: 0 10px;
 }

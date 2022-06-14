@@ -1,7 +1,7 @@
 .box{
   height: 95vh;
   width: 100vw;
-  background-color: rgb(5, 6, 7);
+  background: linear-gradient(to bottom right, #2D3735, #5F5F37);
   padding: 10% ;
 }
 

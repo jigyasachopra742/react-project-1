@@ -1,7 +1,7 @@
 #abu{
     padding: 100px;
     text-align: center;
-    background-color:  rgb(93, 52, 131);
+    background: linear-gradient(to bottom right, #2D3735, #E79CC9);
 }
 
 .abu-column{

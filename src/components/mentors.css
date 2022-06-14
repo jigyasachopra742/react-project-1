@@ -2,7 +2,7 @@
 #men{
     padding: 100px;
     text-align: center;
-    background-color:  antiquewhite
+    background: linear-gradient(to bottom right, #2D3735, #FCAE63);
 }
 
 h1{

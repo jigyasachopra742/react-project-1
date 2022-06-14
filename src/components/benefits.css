@@ -1,7 +1,8 @@
 #bene{
     padding: 100px;
     text-align: center;
-    background-color:  rgb(188, 151, 151)
+    background: linear-gradient(to bottom right, #2D3735, #E79CC9);
+
 }
 
 .bene-column{

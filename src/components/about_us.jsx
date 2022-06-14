@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 function About_us()
 {
    return(   
-     
+     <section id = "about_us">
       <div className='box'>
          <img className='about_img' src='https://www.codingminutes.com/static/media/header-image.9aa88f5aab8a31248bb3.png'></img>
             <div className='col-lg-12'>
@@ -29,7 +29,7 @@ function About_us()
          
       </div>
 
-      
+   </section>   
         
  
       

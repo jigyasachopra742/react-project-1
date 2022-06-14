@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #332940;
+    background: linear-gradient(to bottom right, rgba(78, 79, 125, 1.0), rgba(189, 98, 187, 1.0));
     opacity: 90%;
     text-align: center;
     overflow-x: hidden; /*for removing horizontal scroll*/

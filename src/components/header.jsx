@@ -57,33 +57,35 @@ function Header() //import the function name
         }
 
     return(
-    <div className="container-fluid">
-      <div className="row" style={{overflow:"hidden"}}>
-        <div className="col-lg-6">
-            
-            <h1>Get help with
-                Coding from 
-                Engineers.
-            </h1>
-            
-            <h5>
-                Learn How to Code efficiently and create 
-                apps and games that work. Consult with 
-                best experts to apply skills in action.
-            </h5>
+        <section id="home">
+            <div className="container-fluid">
+                <div className="row" style={{overflow:"hidden"}}>
+                    <div className="col-lg-6">
+                        
+                        <h1>Get help with
+                            Coding from 
+                            Engineers.
+                        </h1>
+                        
+                        <h5>
+                            Learn How to Code efficiently and create 
+                            apps and games that work. Consult with 
+                            best experts to apply skills in action.
+                        </h5>
 
-            <motion.button whileHover={{ scale: 1.2}} type="button" class="btn btn-dark btn-lg download-button">  Start Learning</motion.button>
-            <motion.button whileHover={{ scale: 1.2}} type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>  Watch Video</motion.button>
-      
+                        <motion.button whileHover={{ scale: 1.2}} type="button" class="btn btn-dark btn-lg download-button">  Start Learning</motion.button>
+                        <motion.button whileHover={{ scale: 1.2}} type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>  Watch Video</motion.button>
+                
 
-            <div className="col-lg-12">
-                <img className="coding" src = "https://imgs.developpaper.com/imgs/2993519687-c203a7b973b06316_articlex.png"></img>
-                <img className="codingboy" src="https://cdn1.iconfinder.com/data/icons/people-career-for-business/64/Artboard_2-512.png"></img>
+                        <div className="col-lg-12">
+                            <img className="coding" src = "https://imgs.developpaper.com/imgs/2993519687-c203a7b973b06316_articlex.png"></img>
+                            <img className="codingboy" src="https://cdn1.iconfinder.com/data/icons/people-career-for-business/64/Artboard_2-512.png"></img>
+                        </div>
+                    </div>
+                
+                </div>
             </div>
-        </div>
-       
-      </div>
-    </div>
+        </section>
     );
 }
 

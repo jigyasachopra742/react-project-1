@@ -18,11 +18,13 @@ function createMenEntry(Men)
 function Mentors()
 {
     return(
-        <section id="men">
-            <h2 style={{color: "black"}}>Meet The Team🤩</h2>
-            <div className="row">
-                {Men.map(createMenEntry)}
-            </div>
+        <section id="mentor">
+            <section id="men">
+                <h2 style={{color: "black"}}>Meet The Team🤩</h2>
+                <div className="row">
+                    {Men.map(createMenEntry)}
+                </div>
+            </section>
         </section>
     );
 }
